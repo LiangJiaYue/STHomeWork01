@@ -1,28 +1,30 @@
 /**
   * @Author: Liang Jiayue
-  * @Description:
+  * @Description:学生实体类
   * @Date: 16:21 2020/4/23
  */
 public class Student {
 
-    //学生学号
+    /**
+     * 学生学号
+     */
     public int id;
 
-    //学生姓名
+    /**
+     * 学生姓名
+     */
     public String name;
 
-    //学生生日
+    /**
+     * 学生生日
+     */
     public String birDate;
 
-    //学生性别
+    /**
+     * 学生性别
+     */
     public String gender;
 
-//    public Student(int id,String name,String birDate,String gender){
-//        this.id = id;
-//        this.name = name;
-//        this.birDate = birDate;
-//        this.gender = gender;
-//    }
 
     public int getId() {
         return id;
